@@ -1,0 +1,170 @@
+/* Barra Encabezado */
+.header-component__container {
+  padding: 16px 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #2e0059;
+  font-family: "Poppins", sans-serif;
+  height: 80px;
+  opacity: 0.8;
+}
+
+.header-component__logo {
+  display: flex;
+  align-items: center;
+}
+
+.header-component__logo img {
+  height: 80px;
+  width: auto;
+}
+
+.header-component__text-logo {
+  color: white;
+  font-size: 1px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Nombre Texto Encabezado */
+.header-component__logo {
+  font-family: "Anton", sans-serif;
+  text-decoration: none;
+  color: #ddd;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0;
+  flex-grow: 1;
+  letter-spacing: 7px;
+}
+
+.header-component-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.header-component-nav.active {
+  max-height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header-component-nav ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 18px;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0;
+}
+
+/* Texto Menú encabezado */
+.header-component-nav ul li a {
+  margin-top: 200px;
+  color: #ddd;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.header-component-nav.active ul li a {
+  color: #8800ff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.header-component-nav ul li a::after {
+  content: "";
+  display: block;
+  width: 100%;
+  max-width: 0;
+  height: 3px;
+  background-color: white;
+  border-radius: 1000px;
+  transition: max-height cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.3s;
+}
+
+/* Color de los enlaces al pasar el ratón por encima */
+.header-component-nav ul li a:hover,
+.header-component-nav ul li a:active {
+  color: #8800ff;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.menu div {
+  /*Menú pantallas pequeñas*/
+  position: relative;
+  width: 32px;
+  height: 4px;
+  background-color: #ddd;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu.active div:nth-child(1),
+.menu.active div:nth-child(2) {
+  transform: rotateZ(45deg);
+}
+
+.menu.active div:nth-child(1) {
+  top: 14px;
+}
+
+.menu.active div:nth-child(3) {
+  transform: rotateZ(-45deg);
+  top: -14px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .header-component__container {
+    height: 70px;
+  }
+  .header-component__logo img {
+    height: 70px;
+    width: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .header-component__container {
+    height: 70px;
+  }
+
+  .header-component__logo img {
+    height: 70px;
+    width: auto;
+  }
+}
+
+@media (min-width: 767px) {
+  .menu {
+    display: none;
+  }
+
+  .header-component-nav {
+    position: static;
+    max-height: 100%;
+    background-color: transparent;
+  }
+
+  .header-component-nav ul {
+    flex-direction: row;
+  }
+}

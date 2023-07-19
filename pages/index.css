@@ -1,0 +1,313 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+}
+
+.header {
+  position: relative;
+  background-image: url("../img/header.png");
+  height: 400px;
+  z-index: -0;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  z-index: -1;
+  text-shadow: -1px -1px 0 #000, 2px -1px 0 #000, -1px 2px 0 #000, 1px 1px 0 #000;
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.welcome__title {
+  font-size: 48px;
+  margin: 0;
+  text-align: center;
+}
+
+.welcome__mi-site {
+  font-size: 32px;
+  text-align: center;
+}
+
+#my-presentation .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+#my-presentation .card_img_perso {
+  width: 250px;
+  height: auto;
+  object-fit: cover;
+  margin-left: 100px;
+  border-radius: 50px;
+  border: 2px solid rgb(102, 102, 102);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.card_description_perso {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 50px;
+}
+
+.card_description_perso h1 {
+  font-size: 30px;
+}
+
+.card_description_perso p {
+  text-align: justify;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+#my-presentation {
+  padding: 34.5px 34px;
+  background-image: linear-gradient(to bottom, rgb(126, 0, 251), rgb(0, 13, 255), rgb(126, 0, 251));
+}
+
+#my-presentation .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 16px;
+}
+
+#my-presentation .card_description__detail {
+  text-align: left;
+  font-size: 12px;
+}
+
+.services-containe__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.card_description__detail {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 16px;
+  color: #000000;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .welcome__title {
+    font-size: 44px;
+  }
+
+  .welcome__mi-site {
+    font-size: 28px;
+  }
+
+  #my-presentation .card {
+    width: 100%;
+    padding: 0;
+    flex-direction: column-reverse;
+  }
+
+  #my-presentation .card__img {
+    width: 180px;
+  }
+
+  #my-presentation .card_description_perso {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .card_description__title {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .card_description__detail {
+    font-size: 20px;
+  }
+
+  .card_description__link {
+    font-size: 15px;
+  }
+
+  #my-presentation {
+    padding: 30px 30px;
+  }
+
+  .card__img-containt {
+    order: 1;
+    border: none;
+  }
+
+  .card_description_perso {
+    order: 2;
+  }
+
+  .card_description_perso h1 {
+    font-size: 28px;
+  }
+
+  .card_description_perso p {
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #my-presentation img {
+    display: block;
+    margin-right: 100px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .welcome__title {
+    font-size: 40px;
+    margin: 0;
+    align-items: center;
+  }
+
+  .welcome__mi-site {
+    font-size: 26px;
+    align-items: center;
+  }
+
+  #my-presentation .card {
+    width: 100%;
+    padding: 0;
+    flex-direction: column-reverse;
+  }
+
+  #my-presentation .card__img {
+    width: 180px;
+  }
+
+  #my-presentation .card_description_perso {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .card_description__title {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .card_description__detail {
+    font-size: 20px;
+  }
+
+  .card_description__link {
+    font-size: 15px;
+  }
+
+  #my-presentation {
+    padding: 30px 30px;
+  }
+
+  .card__img-containt {
+    order: 1;
+    border: none;
+  }
+
+  .card_description_perso {
+    order: 2;
+  }
+
+  .card_description_perso h1 {
+    font-size: 25px;
+  }
+
+  .card_description_perso p {
+    font-size: 16px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #my-presentation img {
+    display: block;
+    margin-right: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .welcome__title {
+    font-size: 33px;
+    margin: 0;
+    
+  }
+
+  .welcome__mi-site {
+    font-size: 20px;
+    
+  }
+
+  #my-presentation {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 0;
+  }
+
+  #my-presentation .card {
+    flex-direction: column-reverse;
+  }
+
+  #my-presentation .card__img-containt {
+    order: 1;
+    border: none;
+  }
+
+  #my-presentation .card_description_perso {
+    order: 2;
+  }
+
+  #my-presentation .card_description_perso h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #my-presentation .card_description_perso {
+    margin-left: 0;
+  }
+
+  #my-presentation .card_description_perso p {
+    font-size: 15px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #my-presentation img {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    margin-right: 100px;
+  }
+}
