@@ -17,7 +17,7 @@
 }
 
 .card_knowledge {
-    flex-basis: calc(33.33% - 20px); /*Cambiar valor a 25*/
+    flex-basis: calc(25% - 20px); /*Cambiar valor dependiendo de los items*/
     max-width: calc(33.33% - 20px);
     margin: 0;
 }
