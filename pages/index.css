@@ -78,14 +78,14 @@ body {
 
 .card_description_perso p {
   text-align: justify;
-  margin-right: 50px;
-  margin-left: 50px;
-  margin-top: 20px;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 1.4%;
   font-size: 17px;
 }
 
 #my-presentation {
-  padding: 34.5px 34px;
+  padding: 1%;
   background-image: linear-gradient(to bottom, rgb(126, 0, 251), rgb(0, 13, 255), rgb(126, 0, 251));
 }
 
@@ -261,12 +261,12 @@ body {
   .welcome__title {
     font-size: 33px;
     margin: 0;
-    
+
   }
 
   .welcome__mi-site {
     font-size: 20px;
-    
+
   }
 
   #my-presentation {

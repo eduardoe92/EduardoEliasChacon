@@ -47,7 +47,7 @@ presentationSection.innerHTML = `
         Desde diciembre de 2022, he estado participando en el programa de formación de Egg Cooperation, y posteriormente, 
         desde marzo de 2023 hasta junio de 2023, en el programa de Programación Front-End de Eidos Global.</p>
         <p>Estos programas me han permitido desarrollar conocimientos en diversas áreas, como Java, JavaScript, HTML, CSS, Bootstrap, React, Github, MySQL, Wordpress y 
-        Programación Orientada a Objetos (OPP). Además, cuento con experiencia en el uso de herramientas y programas de desarrollo, como Visual Studio, 
+        Programación Orientada a Objetos (OOP). Tambien cuento con experiencia en el uso de herramientas y programas de desarrollo, como Visual Studio, 
         Netbeans y Workbench. Además, he ampliado mis conocimientos de forma autodidacta a través de plataformas educativas como Udemy y Educacion IT.</p>
         <p>Siento una profunda pasión por la tecnología y el desarrollo web, y estoy comprometido a seguir aprendiendo cada día para 
         convertirme en un profesional de excelencia. Estoy dispuesto a asumir nuevos desafíos y formar parte de un equipo innovador que impulse 
