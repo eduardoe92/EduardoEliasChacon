@@ -44,8 +44,8 @@ presentationSection.innerHTML = `
         <p>Permítanme presentarme, soy Eduardo Elias Chacon, un apasionado Programador Web en constante formación.
         Actualmente resido en Buenos Aires, Argentina, aunque soy originario de Venezuela.</p>
         <p>A lo largo de mi trayecto académico, he invertido mi tiempo en adquirir conocimientos y habilidades relevantes para la industria. 
-        Desde diciembre de 2022, he estado participando en el programa de formación de Egg Cooperation, y posteriormente, 
-        desde marzo de 2023 hasta junio de 2023, en el programa de Programación Front-End de Eidos Global.</p>
+        Desde diciembre de 2022 hasta septiembre de 2023, participé en el programa de formación de programador Full Stack de Egg Cooperation, y posteriormente, 
+        desde marzo de 2023 hasta junio de 2023, en el programa de Programación Front-End de Eidos Global y Accenture.</p>
         <p>Estos programas me han permitido desarrollar conocimientos en diversas áreas, como Java, JavaScript, HTML, CSS, Bootstrap, React, Github, MySQL, Wordpress y 
         Programación Orientada a Objetos (OOP). Tambien cuento con experiencia en el uso de herramientas y programas de desarrollo, como Visual Studio, 
         Netbeans y Workbench. Además, he ampliado mis conocimientos de forma autodidacta a través de plataformas educativas como Udemy y Educacion IT.</p>
